@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		128C74CE19D5A01D00139200 /* MVTaskObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 128C74CD19D5A01D00139200 /* MVTaskObject.m */; };
+		128D853E19D4CC7800ABF572 /* MVAddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128D853D19D4CC7800ABF572 /* MVAddTaskViewController.m */; };
+		128D854119D4CCA800ABF572 /* MVTaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128D854019D4CCA800ABF572 /* MVTaskDetailViewController.m */; };
+		128D854419D4CCBE00ABF572 /* MVEditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128D854319D4CCBE00ABF572 /* MVEditTaskViewController.m */; };
+		12905EC319DB4F1600B20F00 /* Icon-warning.png in Resources */ = {isa = PBXBuildFile; fileRef = 12905EC019DB4F1600B20F00 /* Icon-warning.png */; };
+		12905EC619DB50D600B20F00 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 12905EC519DB50D600B20F00 /* check.png */; };
+		12905EC819DB519500B20F00 /* todo.png in Resources */ = {isa = PBXBuildFile; fileRef = 12905EC719DB519500B20F00 /* todo.png */; };
 		1298D4BD19D4A08500ABA8A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1298D4BC19D4A08500ABA8A7 /* Foundation.framework */; };
 		1298D4BF19D4A08500ABA8A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1298D4BE19D4A08500ABA8A7 /* CoreGraphics.framework */; };
 		1298D4C119D4A08500ABA8A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1298D4C019D4A08500ABA8A7 /* UIKit.framework */; };
@@ -34,6 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		128C74CC19D5A01D00139200 /* MVTaskObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTaskObject.h; sourceTree = "<group>"; };
+		128C74CD19D5A01D00139200 /* MVTaskObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTaskObject.m; sourceTree = "<group>"; };
+		128D853C19D4CC7800ABF572 /* MVAddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVAddTaskViewController.h; sourceTree = "<group>"; };
+		128D853D19D4CC7800ABF572 /* MVAddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVAddTaskViewController.m; sourceTree = "<group>"; };
+		128D853F19D4CCA800ABF572 /* MVTaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTaskDetailViewController.h; sourceTree = "<group>"; };
+		128D854019D4CCA800ABF572 /* MVTaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTaskDetailViewController.m; sourceTree = "<group>"; };
+		128D854219D4CCBE00ABF572 /* MVEditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVEditTaskViewController.h; sourceTree = "<group>"; };
+		128D854319D4CCBE00ABF572 /* MVEditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVEditTaskViewController.m; sourceTree = "<group>"; };
+		12905EC019DB4F1600B20F00 /* Icon-warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-warning.png"; sourceTree = "<group>"; };
+		12905EC519DB50D600B20F00 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		12905EC719DB519500B20F00 /* todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = todo.png; sourceTree = "<group>"; };
 		1298D4B919D4A08500ABA8A7 /* OverdueTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverdueTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1298D4BC19D4A08500ABA8A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1298D4BE19D4A08500ABA8A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +137,14 @@
 				1298D4D219D4A08500ABA8A7 /* MVViewController.m */,
 				1298D4D419D4A08500ABA8A7 /* Images.xcassets */,
 				1298D4C319D4A08500ABA8A7 /* Supporting Files */,
+				128D853C19D4CC7800ABF572 /* MVAddTaskViewController.h */,
+				128D853D19D4CC7800ABF572 /* MVAddTaskViewController.m */,
+				128D853F19D4CCA800ABF572 /* MVTaskDetailViewController.h */,
+				128D854019D4CCA800ABF572 /* MVTaskDetailViewController.m */,
+				128D854219D4CCBE00ABF572 /* MVEditTaskViewController.h */,
+				128D854319D4CCBE00ABF572 /* MVEditTaskViewController.m */,
+				128C74CC19D5A01D00139200 /* MVTaskObject.h */,
+				128C74CD19D5A01D00139200 /* MVTaskObject.m */,
 			);
 			path = OverdueTask;
 			sourceTree = "<group>";
@@ -126,6 +152,9 @@
 		1298D4C319D4A08500ABA8A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				12905EC719DB519500B20F00 /* todo.png */,
+				12905EC519DB50D600B20F00 /* check.png */,
+				12905EC019DB4F1600B20F00 /* Icon-warning.png */,
 				1298D4C419D4A08500ABA8A7 /* OverdueTask-Info.plist */,
 				1298D4C519D4A08500ABA8A7 /* InfoPlist.strings */,
 				1298D4C819D4A08500ABA8A7 /* main.m */,
@@ -229,8 +258,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1298D4D519D4A08500ABA8A7 /* Images.xcassets in Resources */,
+				12905EC619DB50D600B20F00 /* check.png in Resources */,
+				12905EC819DB519500B20F00 /* todo.png in Resources */,
 				1298D4C719D4A08500ABA8A7 /* InfoPlist.strings in Resources */,
 				1298D4D019D4A08500ABA8A7 /* Main.storyboard in Resources */,
+				12905EC319DB4F1600B20F00 /* Icon-warning.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +283,10 @@
 			files = (
 				1298D4C919D4A08500ABA8A7 /* main.m in Sources */,
 				1298D4D319D4A08500ABA8A7 /* MVViewController.m in Sources */,
+				128D854419D4CCBE00ABF572 /* MVEditTaskViewController.m in Sources */,
+				128D854119D4CCA800ABF572 /* MVTaskDetailViewController.m in Sources */,
+				128C74CE19D5A01D00139200 /* MVTaskObject.m in Sources */,
+				128D853E19D4CC7800ABF572 /* MVAddTaskViewController.m in Sources */,
 				1298D4CD19D4A08500ABA8A7 /* MVAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +492,7 @@
 				1298D4ED19D4A08600ABA8A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1298D4EE19D4A08600ABA8A7 /* Build configuration list for PBXNativeTarget "OverdueTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +501,7 @@
 				1298D4F019D4A08600ABA8A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
